@@ -1,0 +1,38 @@
+# Django Project Folder Structure
+seasmart/
+│
+├── manage.py
+├── requirements.txt
+│
+├── seasmart_core/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+│
+├── apps/
+│   ├── accounts/          # User & Role Management
+│   ├── boats/             # Boat Information
+│   ├── trips/             # Fishing Trips
+│   ├── crew/              # Manpower Management
+│   ├── fuel/              # Diesel Management
+│   ├── ice_food/          # Ice & Food Resources
+│   ├── catch/             # Fish Load / Unload
+│   ├── maintenance/       # Mechanical & Welding Issues
+│   ├── nets/              # Net Repair
+│   └── tracking/          # GPS Location
+│
+├── templates/
+│   ├── base.html
+│   ├── dashboard.html
+│   └── auth/
+│
+├── static/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+├── media/
+│
+└── README.md
